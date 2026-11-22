@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/pensora-logo-horizontal.svg" alt="PENSORA" width="360"></p>
 
-# Pensora
+# PENSORA
 
 **Open-source task and capacity planner for departments – local-first, no server, no cloud.**
 
@@ -8,7 +8,7 @@
 
 ## What it is
 
-Pensora helps a department see who is working on what, by when, and how much capacity is left – a simpler, more readable alternative to typical cloud planners.
+PENSORA helps a department see who is working on what, by when, and how much capacity is left – a simpler, more readable alternative to typical cloud planners.
 
 - Tasks with descriptions, owners, due dates, tags, checklists and comments
 - Team view with capacity in percent, absences and home office
@@ -21,7 +21,7 @@ Pensora helps a department see who is working on what, by when, and how much cap
 
 ## Name
 
-*Pensora* is a made-up word: from Latin *pensum* (the work assigned for a day) and *hora* (hour) – work and time.
+*PENSORA* is a made-up word: from Latin *pensum* (the work assigned for a day) and *hora* (hour) – work and time.
 
 ## License
 
@@ -29,7 +29,7 @@ Planned: GPL-3.0.
 
 ---
 
-# Pensora (Deutsch)
+# PENSORA (Deutsch)
 
 **Quelloffener Aufgaben- und Kapazitätsplaner für Abteilungen – lokal, ohne Server, ohne Cloud.**
 
@@ -37,7 +37,7 @@ Planned: GPL-3.0.
 
 ## Worum es geht
 
-Pensora zeigt einer Abteilung, wer woran arbeitet, bis wann, und wie viel Kapazität noch frei ist – einfacher und lesbarer als übliche Cloud-Planer.
+PENSORA zeigt einer Abteilung, wer woran arbeitet, bis wann, und wie viel Kapazität noch frei ist – einfacher und lesbarer als übliche Cloud-Planer.
 
 - Aufgaben mit Beschreibung, Verantwortlichen, Fälligkeit, Tags, Checklisten und Kommentaren
 - Teamansicht mit Auslastung in Prozent, Abwesenheiten und Homeoffice
@@ -50,7 +50,7 @@ Pensora zeigt einer Abteilung, wer woran arbeitet, bis wann, und wie viel Kapazi
 
 ## Name
 
-*Pensora* ist ein Kunstwort aus lateinisch *pensum* (das zugeteilte Tagewerk) und *hora* (Stunde) – Arbeit und Zeit.
+*PENSORA* ist ein Kunstwort aus lateinisch *pensum* (das zugeteilte Tagewerk) und *hora* (Stunde) – Arbeit und Zeit.
 
 ## Lizenz
 
