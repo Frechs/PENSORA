@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/pensora-logo-horizontal.svg" alt="PENSORA" width="360"></p>
+
 # Pensora
 
 **Open-source task and capacity planner for departments – local-first, no server, no cloud.**
