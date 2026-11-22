@@ -19,6 +19,18 @@ PENSORA helps a department see who is working on what, by when, and how much cap
 - Selectable branding (colours, logo) per company
 - German and English user interface
 
+## Screenshots
+
+*Standard PENSORA layout, fictitious example data · Standard-Layout von PENSORA, erfundene Beispieldaten*
+
+| | |
+|---|---|
+| **Team workload · Auslastung Team**<br><img src="assets/screenshots/1-team.png" width="420"> | **Board**<br><img src="assets/screenshots/3-board.png" width="420"> |
+| **Task as a note sheet · Aufgabe als Notizblatt**<br><img src="assets/screenshots/6-aufgabe.png" width="420"> | **My tasks · Meine Aufgaben**<br><img src="assets/screenshots/2-meine-aufgaben.png" width="420"> |
+| **Table · Tabelle**<br><img src="assets/screenshots/4-tabelle.png" width="420"> | **Calendar · Kalender**<br><img src="assets/screenshots/5-kalender.png" width="420"> |
+| **Dark mode · Dunkler Modus**<br><img src="assets/screenshots/7-dunkel.png" width="420"> | |
+
+
 ## Name
 
 *PENSORA* is a made-up word: from Latin *pensum* (the work assigned for a day) and *hora* (hour) – work and time.
