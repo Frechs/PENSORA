@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PENSORA – Aufgaben- und Kapazitätsplaner</title>
+<meta name="description" content="Quelloffener Aufgaben- und Kapazitätsplaner für Abteilungen – lokal, ohne Server, ohne Cloud.">
+<link rel="icon" href="assets/pensora-logo-horizontal.svg">
+<style>
+:root{--navy:#2B3A55;--orange:#D9772B;--bg:#f6f7f9;--card:#fff;--text:#1d2433;--muted:#5b6476;--line:#e2e5eb}
+@media (prefers-color-scheme:dark){:root{--bg:#141a25;--card:#1d2533;--text:#e8ebf1;--muted:#a3abbb;--line:#2c3546}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--orange)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{background:#fff;border-radius:10px;padding:6px 10px;display:inline-flex}
+.logo img{height:34px;display:block}
+.lang button{background:none;border:1px solid var(--line);color:var(--text);padding:4px 10px;border-radius:6px;cursor:pointer;font:inherit;font-size:14px}
+.lang button[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.hero{padding:48px 0 32px;text-align:center}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 16px}
+.hero p{color:var(--muted);font-size:19px;max-width:680px;margin:0 auto 28px}
+.btn{display:inline-block;background:var(--navy);color:#fff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:600}
+.status{display:inline-block;margin-top:18px;font-size:14px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:4px 12px}
+.hero-img{margin:40px auto 0;max-width:900px}
+img.shot{width:100%;border-radius:10px;border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.12);display:block}
+h2{font-size:26px;margin:56px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.card b{display:block;margin-bottom:4px;color:var(--text)}
+.card span{color:var(--muted);font-size:15px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+figure{margin:0}
+figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+footer{margin-top:72px;padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+[data-en]{display:none}
+html[lang=en] [data-de]{display:none}
+html[lang=en] [data-en]{display:revert}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="logo"><img src="assets/pensora-logo-horizontal.svg" alt="PENSORA"></span>
+  <span class="lang"><button id="b-de" onclick="setLang('de')">DE</button> <button id="b-en" onclick="setLang('en')">EN</button></span>
+</header>
+
+<section class="hero">
+  <h1><span data-de>Wer arbeitet woran – und wie viel geht noch?</span><span data-en>Who is working on what – and how much capacity is left?</span></h1>
+  <p><span data-de>Quelloffener Aufgaben- und Kapazitätsplaner für Abteilungen. Lokal, ohne Server, ohne Cloud.</span><span data-en>Open-source task and capacity planner for departments. Local-first, no server, no cloud.</span></p>
+  <a class="btn" href="https://github.com/Frechs/pensora"><span data-de>Auf GitHub ansehen</span><span data-en>View on GitHub</span></a><br>
+  <span class="status"><span data-de>In Entwicklung – Version 1.0 folgt</span><span data-en>In development – version 1.0 coming</span></span>
+  <div class="hero-img"><img class="shot" src="assets/screenshots/1-team.png" alt=""></div>
+</section>
+
+<h2><span data-de>Funktionen</span><span data-en>Features</span></h2>
+<div class="grid">
+  <div class="card"><b data-de>Aufgaben</b><b data-en>Tasks</b><span data-de>Beschreibung, Verantwortliche, Fälligkeit, Tags, Checklisten und Kommentare.</span><span data-en>Descriptions, owners, due dates, tags, checklists and comments.</span></div>
+  <div class="card"><b data-de>Team-Auslastung</b><b data-en>Team workload</b><span data-de>Kapazität in Prozent, Abwesenheiten und Homeoffice auf einen Blick.</span><span data-en>Capacity in percent, absences and home office at a glance.</span></div>
+  <div class="card"><b data-de>Viele Ansichten</b><b data-en>Multiple views</b><span data-de>Board, Tabelle, Kalender und eigene Aufgabenliste.</span><span data-en>Board, table, calendar and a personal task list.</span></div>
+  <div class="card"><b data-de>Ohne Adminrechte</b><b data-en>No admin rights</b><span data-de>Normales Windows-Programm, Installation ohne Adminrechte.</span><span data-en>A regular Windows program that installs without admin rights.</span></div>
+  <div class="card"><b data-de>Daten bleiben im Haus</b><b data-en>Data stays in-house</b><span data-de>Abgleich über einen Netzwerkordner – kein Server, keine Cloud, kein Konto.</span><span data-en>Sync via a shared network folder – no server, no cloud, no account.</span></div>
+  <div class="card"><b data-de>Datenschutz mitgedacht</b><b data-en>Privacy by design</b><span data-de>Wenige Personendaten, Anonymisierung, Rollen für Mitarbeiter, Leitung und Admin.</span><span data-en>Minimal personal data, anonymisation, roles for staff, lead and admin.</span></div>
+  <div class="card"><b data-de>Eigenes Firmen-Design</b><b data-en>Your branding</b><span data-de>Farben und Logo pro Firma wählbar.</span><span data-en>Colours and logo selectable per company.</span></div>
+  <div class="card"><b data-de>Deutsch &amp; Englisch</b><b data-en>German &amp; English</b><span data-de>Oberfläche in beiden Sprachen.</span><span data-en>User interface in both languages.</span></div>
+</div>
+
+<h2><span data-de>Einblicke</span><span data-en>Screenshots</span></h2>
+<div class="gallery">
+  <figure><img class="shot" loading="lazy" src="assets/screenshots/3-board.png" alt="Board"><figcaption>Board</figcaption></figure>
+  <figure><img class="shot" loading="lazy" src="assets/screenshots/6-aufgabe.png" alt=""><figcaption><span data-de>Aufgabe als Notizblatt</span><span data-en>Task as a note sheet</span></figcaption></figure>
+  <figure><img class="shot" loading="lazy" src="assets/screenshots/2-meine-aufgaben.png" alt=""><figcaption><span data-de>Meine Aufgaben</span><span data-en>My tasks</span></figcaption></figure>
+  <figure><img class="shot" loading="lazy" src="assets/screenshots/4-tabelle.png" alt=""><figcaption><span data-de>Tabelle</span><span data-en>Table</span></figcaption></figure>
+  <figure><img class="shot" loading="lazy" src="assets/screenshots/5-kalender.png" alt=""><figcaption><span data-de>Kalender</span><span data-en>Calendar</span></figcaption></figure>
+  <figure><img class="shot" loading="lazy" src="assets/screenshots/7-dunkel.png" alt=""><figcaption><span data-de>Dunkler Modus</span><span data-en>Dark mode</span></figcaption></figure>
+</div>
+<p style="font-size:14px;color:var(--muted)"><span data-de>Erfundene Beispieldaten.</span><span data-en>Fictitious example data.</span></p>
+
+<footer>
+  <span><span data-de>PENSORA ist ein privates Open-Source-Projekt (geplante Lizenz: GPL-3.0).</span><span data-en>PENSORA is a private open-source project (planned licence: GPL-3.0).</span></span>
+  <span><a href="https://github.com/Frechs/pensora">GitHub</a> · <a href="datenschutz.html"><span data-de>Datenschutz</span><span data-en>Privacy</span></a></span>
+</footer>
+</div>
+<script>
+function setLang(l){document.documentElement.lang=l;document.getElementById('b-de').setAttribute('aria-pressed',l==='de');document.getElementById('b-en').setAttribute('aria-pressed',l==='en');try{localStorage.setItem('lang',l)}catch(e){}}
+var s;try{s=localStorage.getItem('lang')}catch(e){}
+setLang(s||((navigator.language||'de').toLowerCase().startsWith('de')?'de':'en'));
+</script>
+</body>
+</html>
