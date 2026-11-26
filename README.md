@@ -49,7 +49,7 @@ PENSORA is free and stays free. If it saves you time, you can buy me a coffee:
 
 ## Contact
 
-PENSORA@outlook.com
+PENSORA@outlook.de
 
 ## License
 
@@ -88,7 +88,7 @@ PENSORA ist kostenlos und bleibt es auch. Wenn es dir Zeit spart, freue ich mich
 
 ## Kontakt
 
-PENSORA@outlook.com
+PENSORA@outlook.de
 
 ## Lizenz
 
