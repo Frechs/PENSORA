@@ -5,7 +5,12 @@
 
 **Open-source task and capacity planner for departments – local-first, no server, no cloud.**
 
-> Status: in development. This repository reserves the name; the source code will be published here with version 1.0.
+> **Status: Beta / in development.** Not intended for productive use with real data yet. Provided without warranty. The source code and download will be published here with version 1.0.
+>
+> **Stand: Beta / in Entwicklung.** Noch nicht für den produktiven Einsatz mit echten Daten gedacht. Ohne Gewähr. Quellcode und Download folgen hier mit Version 1.0.
+
+<p align="center"><img src="assets/pensora-demo.gif" alt="PENSORA demo: team workload, board, task sheet, calendar, dark mode (fictitious data)" width="800"></p>
+<p align="center"><sub>Demo with fictitious data · Demo mit erfundenen Daten</sub></p>
 
 ## What it is
 
@@ -52,7 +57,7 @@ Planned: GPL-3.0.
 
 **Quelloffener Aufgaben- und Kapazitätsplaner für Abteilungen – lokal, ohne Server, ohne Cloud.**
 
-> Stand: in Entwicklung. Dieses Repository sichert den Namen; der Quellcode wird hier mit Version 1.0 veröffentlicht.
+> **Stand: Beta / in Entwicklung.** Noch nicht für den produktiven Einsatz mit echten Daten gedacht. Ohne Gewähr. Quellcode und Download folgen mit Version 1.0.
 
 ## Worum es geht
 
