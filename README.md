@@ -47,6 +47,10 @@ PENSORA is free and stays free. If it saves you time, you can buy me a coffee:
 
 <a href="https://ko-fi.com/frechs"><img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Buy Me a Coffee at ko-fi.com" height="36"></a>
 
+## Contact
+
+PENSORA@outlook.com
+
 ## License
 
 Planned: GPL-3.0.
@@ -81,6 +85,10 @@ PENSORA zeigt einer Abteilung, wer woran arbeitet, bis wann, und wie viel Kapazi
 PENSORA ist kostenlos und bleibt es auch. Wenn es dir Zeit spart, freue ich mich über einen Kaffee:
 
 <a href="https://ko-fi.com/frechs"><img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Spendier mir einen Kaffee auf ko-fi.com" height="36"></a>
+
+## Kontakt
+
+PENSORA@outlook.com
 
 ## Lizenz
 
